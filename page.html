@@ -1,0 +1,77 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+      
+        <h1>Import Data File</h1>
+        <nav class="navbar"> 
+            <ul class="nav-links">
+                 <li><a href="#">Costemer</a></li>
+                 <li><a href="#">Import</a></li>
+                 <li><a href="#">Mapping</a></li> 
+                 <li><a href="#">Contact</a></li> 
+                 <li><a href="#">Home</a></li> 
+                 <li><a href="#">Servise</a></li> 
+                 <li><a href="#">Apout</a></li> 
+                </ul> </nav>
+<div class="page">
+                <form class="import-form">
+                  <label>Company name</label> 
+                  <input type="text" name="username" placeholder="sapurt Warehouse"><br>
+                   <label>Workds name</label> 
+                    <input type="text" name="username" placeholder="Pacaging wareplace  "><br>
+                  <label>Template</label> 
+                  <select> 
+                    <option>SWH - HPE - GB - English (Up Front)</option> 
+                  </select>
+               
+            
+              <label>Distributor File</label>
+                <button type="button">Choose File</button>
+             
+                <label>Total Buy Price (£)</label> <input type="number">
+
+                <div class="checkboxes"> 
+                  <label><input type="checkbox"> Add payment schedule</label>
+                  <label><input type="checkbox"> Calculate List Price</label> 
+                  </div>
+
+                  <div class="actions">
+                    <button type="button">Back</button> 
+                    <button type="submit">Next</button> 
+                  </div>
+
+
+
+
+
+
+                    </form>
+                    
+                    </div>
+
+                <style>
+                 .navbar { display: flex; justify-content: space-between; align-items: center; background: #307af9; padding: 5px; width: 100%; } 
+                 .navbar .logo { color: rgb(0, 0, 0); font-size: 20px; } 
+                 .nav-links { list-style: none; display: flex; } 
+                 .nav-links li { margin: 0 45px; }
+                  .nav-links a { color: rgb(0, 0, 0); text-decoration: none; }
+
+.page {
+  display: flex;
+  justify-content: center; 
+  align-items: center;       
+  height: 100vh;             
+
+
+                .import-form { display: flex;; flex-direction: column; width: 400px; gap: 10px; } 
+                .import-form input, 
+                .import-form select { padding: 8px; border: 1px solid #ccc; border-radius: 4px; }
+                 .checkboxes { display: flex; flex-direction: column; gap: 5px; } 
+                 .actions { display: flex; justify-content: space-between; margin-top: 20px;  }
+
+                   </style>
+
+    </body>
+</html>
